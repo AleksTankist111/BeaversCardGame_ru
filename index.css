@@ -1,0 +1,240 @@
+body{
+    background-image: url("./images/table2.jpg");
+    background-repeat: repeat;
+}
+
+.main{
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.colored-square{
+    background: #ce2929;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Bodoni MT";
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.short-info{
+    background: #FFd747;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 5px;
+    text-align: center;
+    font-family: "Bodoni MT";
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.info-img{
+    width: 35px;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.info-text{
+    margin-left: 20px;
+
+}
+
+.card-place{
+    background: rgba(196,196,196,0.75);
+    border: 2px solid rgba(0,0,0,0.75);
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 150px;
+    height: 200px;
+
+}
+
+.play-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-short{
+    background: #e5d116;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.card-header-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price{
+    background: #907102;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-family: "Bodoni MT";
+    padding-left: 10px;
+}
+
+.card-short-image{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card-short-text{
+    font-family: "Times New Roman";
+    margin-top: 10px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-attributes{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-strength{
+    background: #F20000;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-family: "Bodoni MT";
+    padding-left: 10px;
+}
+
+.card-defence{
+    background: #03A700;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-family: "Bodoni MT";
+    padding-left: 10px;
+}
+
+.hand{
+    background: rgba(122, 93, 3, 0.25);
+}
+
+.modal-frame {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    border: 2px solid rgba(253, 181, 0, 0.75);
+    width: 350px;
+    height: 500px;
+}
+
+.card-inhand{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.interface{
+    padding: 20px;
+}
+
+.actions{
+    background: rgba(255,215,71,0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-circle{
+    background: #907102;
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: white;
+    padding-left: 10px;
+}
+
+.action-number{
+    font-family: "Bodoni MT";
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.end-turn{
+    background: #FFd747;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Bodoni MT";
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.full-circle{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.description{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.info-blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
